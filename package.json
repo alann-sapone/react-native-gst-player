@@ -1,0 +1,11 @@
+{
+  "name": "react-native-gst-player",
+  "version": "1.0.0",
+  "description": "Universal video/audio player based on GStreamer native library",
+  "main": "index.js",
+  "author": "Alann Sapone",
+  "license": "MIT",
+  "peerDependencies": {
+    "prop-types": "^15.7.2"
+  }
+}

@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E0435A422406EC0007AC51D /* GstPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0435A322406EC0007AC51D /* GstPlayerManager.m */; };
+		3E0435A522406EC0007AC51D /* GstPlayerManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3E0435A222406EC0007AC51D /* GstPlayerManager.h */; };
+		3E4B06A722419473007DCE2F /* GstPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4B06A622419473007DCE2F /* GstPlayerView.m */; };
+		3E4B06AC224198F0007DCE2F /* gst_ios_init.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4B06AB224198F0007DCE2F /* gst_ios_init.m */; };
+		3E4B06C72242AF23007DCE2F /* gst_player.c in Sources */ = {isa = PBXBuildFile; fileRef = 3E4B06C52242AF23007DCE2F /* gst_player.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3E04359D22406EC0007AC51D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				3E0435A522406EC0007AC51D /* GstPlayerManager.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3E04359F22406EC0007AC51D /* libreactnativegstplayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libreactnativegstplayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E0435A222406EC0007AC51D /* GstPlayerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GstPlayerManager.h; sourceTree = "<group>"; };
+		3E0435A322406EC0007AC51D /* GstPlayerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GstPlayerManager.m; sourceTree = "<group>"; };
+		3E4B06A522419473007DCE2F /* GstPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GstPlayerView.h; sourceTree = "<group>"; };
+		3E4B06A622419473007DCE2F /* GstPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GstPlayerView.m; sourceTree = "<group>"; };
+		3E4B06AA224198C8007DCE2F /* gst_ios_init.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gst_ios_init.h; sourceTree = "<group>"; };
+		3E4B06AB224198F0007DCE2F /* gst_ios_init.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gst_ios_init.m; sourceTree = "<group>"; };
+		3E4B06C52242AF23007DCE2F /* gst_player.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = gst_player.c; path = ../../../native/gst_player.c; sourceTree = "<group>"; };
+		3E4B06C62242AF23007DCE2F /* gst_player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gst_player.h; path = ../../../native/gst_player.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E04359C22406EC0007AC51D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E04359622406EC0007AC51D = {
+			isa = PBXGroup;
+			children = (
+				3E0435A122406EC0007AC51D /* reactnativegstplayer */,
+				3E0435A022406EC0007AC51D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E0435A022406EC0007AC51D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E04359F22406EC0007AC51D /* libreactnativegstplayer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E0435A122406EC0007AC51D /* reactnativegstplayer */ = {
+			isa = PBXGroup;
+			children = (
+				3E4B06C52242AF23007DCE2F /* gst_player.c */,
+				3E4B06C62242AF23007DCE2F /* gst_player.h */,
+				3E4B06C32241A787007DCE2F /* gstreamer_utils */,
+				3E0435A222406EC0007AC51D /* GstPlayerManager.h */,
+				3E0435A322406EC0007AC51D /* GstPlayerManager.m */,
+				3E4B06A522419473007DCE2F /* GstPlayerView.h */,
+				3E4B06A622419473007DCE2F /* GstPlayerView.m */,
+			);
+			path = reactnativegstplayer;
+			sourceTree = "<group>";
+		};
+		3E4B06C32241A787007DCE2F /* gstreamer_utils */ = {
+			isa = PBXGroup;
+			children = (
+				3E4B06AA224198C8007DCE2F /* gst_ios_init.h */,
+				3E4B06AB224198F0007DCE2F /* gst_ios_init.m */,
+			);
+			path = gstreamer_utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E04359E22406EC0007AC51D /* reactnativegstplayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E0435A822406EC0007AC51D /* Build configuration list for PBXNativeTarget "reactnativegstplayer" */;
+			buildPhases = (
+				3E04359B22406EC0007AC51D /* Sources */,
+				3E04359C22406EC0007AC51D /* Frameworks */,
+				3E04359D22406EC0007AC51D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = reactnativegstplayer;
+			productName = reactnativegstplayer;
+			productReference = 3E04359F22406EC0007AC51D /* libreactnativegstplayer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E04359722406EC0007AC51D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Alann Sapone";
+				TargetAttributes = {
+					3E04359E22406EC0007AC51D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 3E04359A22406EC0007AC51D /* Build configuration list for PBXProject "reactnativegstplayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E04359622406EC0007AC51D;
+			productRefGroup = 3E0435A022406EC0007AC51D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E04359E22406EC0007AC51D /* reactnativegstplayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E04359B22406EC0007AC51D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E0435A422406EC0007AC51D /* GstPlayerManager.m in Sources */,
+				3E4B06AC224198F0007DCE2F /* gst_ios_init.m in Sources */,
+				3E4B06A722419473007DCE2F /* GstPlayerView.m in Sources */,
+				3E4B06C72242AF23007DCE2F /* gst_player.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3E0435A622406EC0007AC51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "~/Library/Developer/GStreamer/iPhone.sdk/GStreamer.framework/Headers";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lresolv",
+					"-lstdc++",
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					Foundation,
+					"-framework",
+					AVFoundation,
+					"-framework",
+					CoreMedia,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					CoreAudio,
+					"-framework",
+					AudioToolbox,
+					"-weak_framework",
+					VideoToolbox,
+					"-framework",
+					OpenGLES,
+					"-framework",
+					AssetsLibrary,
+					"-framework",
+					QuartzCore,
+					"-framework",
+					AssetsLibrary,
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3E0435A722406EC0007AC51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "~/Library/Developer/GStreamer/iPhone.sdk/GStreamer.framework/Headers";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"-lresolv",
+					"-lstdc++",
+					"-framework",
+					CoreFoundation,
+					"-framework",
+					Foundation,
+					"-framework",
+					AVFoundation,
+					"-framework",
+					CoreMedia,
+					"-framework",
+					CoreVideo,
+					"-framework",
+					CoreAudio,
+					"-framework",
+					AudioToolbox,
+					"-weak_framework",
+					VideoToolbox,
+					"-framework",
+					OpenGLES,
+					"-framework",
+					AssetsLibrary,
+					"-framework",
+					QuartzCore,
+					"-framework",
+					AssetsLibrary,
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E0435A922406EC0007AC51D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73957X4WTT;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E0435AA22406EC0007AC51D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73957X4WTT;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E04359A22406EC0007AC51D /* Build configuration list for PBXProject "reactnativegstplayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E0435A622406EC0007AC51D /* Debug */,
+				3E0435A722406EC0007AC51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E0435A822406EC0007AC51D /* Build configuration list for PBXNativeTarget "reactnativegstplayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E0435A922406EC0007AC51D /* Debug */,
+				3E0435AA22406EC0007AC51D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E04359722406EC0007AC51D /* Project object */;
+}
